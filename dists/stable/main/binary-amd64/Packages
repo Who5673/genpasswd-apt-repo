@@ -1,0 +1,16 @@
+Package: password-generator
+Version: 1.0.7.5
+Architecture: all
+Maintainer: who5673 <windows7modrenedition@gmail.com>
+Depends: python3-rich,python3,bash,pkexec,libncurses-dev
+Suggests: zsh
+Replaces: python3-genpasswd
+Filename: pool/main/p/password-generator/password-generator_1.0.7.5_all.deb
+Size: 285448
+MD5sum: 3aa91eb5453865941aab94221ee7ccb6
+SHA1: 838c7413a40cc56735051e5c24eab77def982669
+SHA256: a269ceaa4356575eb30265be5f495226bf8d6d531d42f53e153a4c925ebae792
+Section: utils
+Priority: optional
+Description: This is a 13-100 password generator.
+
