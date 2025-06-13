@@ -1,14 +1,16 @@
-Package: python3-genpasswd
-Version: 1.0.8
+Package: password-generator
+Version: 1.0.7.5
 Architecture: all
 Maintainer: who5673 <windows7modrenedition@gmail.com>
-Depends: python3
-Replaces: password-generator
+Depends: python3-rich,python3,bash,pkexec,libncurses-dev
+Suggests: zsh
+Replaces: python3-genpasswd
 Filename: pool/main/p/password-generator/password-generator_1.0.7.5_all.deb
-Size: 172588
-MD5sum: 94086571260465117413b1746040b8bf
-SHA1: a9c5c19727be7aa55e5ee179f5881b420e87fb3e
-SHA256: 2bc28755ca0b503e5a4868c17aa64c3aa970c2f8ae745d0574127274d697708a
+Size: 285448
+MD5sum: 3aa91eb5453865941aab94221ee7ccb6
+SHA1: 838c7413a40cc56735051e5c24eab77def982669
+SHA256: a269ceaa4356575eb30265be5f495226bf8d6d531d42f53e153a4c925ebae792
 Section: utils
-Description: This is a genpasswd library. Note: It will be replaced with password-generator if you install that package.
+Priority: optional
+Description: This is a 13-100 password generator.
 
